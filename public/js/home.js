@@ -19,12 +19,11 @@
                 timeLastRun++;
             }
         }, 150);
-        
-    }
+    };
 
     const startUp = () => {
         nameAnimation();
-    }
+    };
 
     startUp();
 

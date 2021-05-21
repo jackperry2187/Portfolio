@@ -7,6 +7,21 @@ const constructorMethod = (app) => {
         res.render('index');
     });
 
+    app.get('/classes', (req, res) => {
+        //http://localhost:3000/classes renders the classes page
+        res.render('classes');
+    });
+
+    app.get('/experience', (req, res) => {
+        //http://localhost:3000/experience renders the experience page
+        res.render('experience');
+    });
+
+    app.get('/projects', (req, res) => {
+        //http://localhost:3000/projects renders the projects page
+        res.render('projects');
+    });
+
     app.use('*', (req, res) => {
         //any other route goes to 404
         res.status(404).json({ error: 'Not found' });
