@@ -1,8 +1,8 @@
 # Portfolio
 A website showcasing my resume, projects, accomplishments, and classes
-Jackson Perry 5/19/2021  
+Jackson Perry 5/27/2021  
 
-<!-- Image -->
+![Index Screen](https://i.imgur.com/19Rj8Ta.png)
 ## Setup  
 Clone the repository, then double click the `run` file. 
 This file start everything for you, meaning it will:  
