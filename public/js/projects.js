@@ -23,6 +23,7 @@
     }
 
     const loadSkills = () => {
+        //TODO: if the screen is big enough, make it only use one searchGroup instead of both
         let skillSet = [];
         for(let x of skills) {
             if($(x).html() != "") skillSet.push($(x).html());
