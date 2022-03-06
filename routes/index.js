@@ -22,6 +22,11 @@ const constructorMethod = (app) => {
         res.render('projects');
     });
 
+    app.get('/resume', (req, res) => {
+        //http://localhost:3000/resume renders the projects page
+        res.render('resume');
+    });
+
     app.use('*', (req, res) => {
         //any other route goes to 404
         res.status(404).json({ error: 'Not found' });
