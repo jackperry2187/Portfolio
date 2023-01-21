@@ -9,7 +9,7 @@ export const Experience = () => {
                     <div className="card text-white bg-secondary text-start h-100">
                         <div className="card-body">
                             <h5 className="card-title text-center mb-0">March 2022 - Present</h5>
-                            <h1 className="card-title text-center">React Developer Intern</h1>
+                            <h1 className="card-title text-center">Frontend Engineer</h1>
                             <h5 className="card-title text-center">ThinkAlpha Technologies</h5>
                             <h5 className="card-title text-center">Remote</h5>
                             <div className="card bg-dark">
