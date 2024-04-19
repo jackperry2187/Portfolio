@@ -7,9 +7,10 @@ type ProjectProps = {
 }
 
 export const Project: React.FC<ProjectProps> = ({ project, activeSkills }) => {
-    const skillGroups = useMemo(() => project.skills.map((skill, i) => {
-        return (i % 3 === 0 ? project.skills.slice(i, i + 3) : null)
-    }).filter((skill) => skill !== null), [project]);
+    const sortedSkills = useMemo(() => project.skills.sort(), [project]);
+    const skillGroups = useMemo(() => sortedSkills.map((_skill, i) => {
+        return (i % 3 === 0 ? sortedSkills.slice(i, i + 3) : null)
+    }).filter((skill) => skill !== null), [sortedSkills]);
 
     return (
         <div className="col">

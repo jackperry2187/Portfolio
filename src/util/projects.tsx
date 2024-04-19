@@ -7,6 +7,12 @@ export type project = {
 
 export const projectStorage: project[] = [
     {
+        name: 'CCG Suite',
+        URL: 'https://www.ccgsuite.com/',
+        description: 'A web app I made for mostly personal use in order to keep track of a Magic: The Gathering collection of cards. Supports creating inventories and decks, adding/transfering/removing cards to/from them, bulk searching, and integrates with the Scryfall API.',
+        skills: ['REACT', 'TypeScript', 'Node', 'JavaScript', 'HTML5', 'CSS', 'Next.js', 'Clerk', 'Prisma', 'Radix', 'TanStack Query', 'Tailwind', 'tRPC', 'Zod', 'Zustand']
+    },
+    {
         name: 'Assignment Portal',
         URL: 'https://lifeskills.software/',
         description: 'An extension of the Life Skills Suite which allows teachers and students to create and take assignments. Constructed across two semesters during CS423 and CS424: Senior Design I and II.',
@@ -48,10 +54,10 @@ export const projectStorage: project[] = [
         description: 'A website showcasing my resume, projects, experience, and classes.',
         skills: ['REACT', 'React Router', 'TypeScript', 'Node', 'Firebase', 'Google Analytics', 'JavaScript', 'HTML5', 'CSS', 'Bootstrap 5']
     },
-    {
-        name: 'BinaryVisualizer',
-        URL: 'https://github.com/jackperry2187/BinaryVisualizer',
-        description: 'A website to visualize binary and decimal conversions.',
-        skills: ['JavaScript', 'HTML5', 'CSS', 'Bootstrap 5', 'JQuery', 'Node', 'Handlebars', 'Express']
-    }
+    // {
+    //     name: 'BinaryVisualizer',
+    //     URL: 'https://github.com/jackperry2187/BinaryVisualizer',
+    //     description: 'A website to visualize binary and decimal conversions.',
+    //     skills: ['JavaScript', 'HTML5', 'CSS', 'Bootstrap 5', 'JQuery', 'Node', 'Handlebars', 'Express']
+    // }
 ]

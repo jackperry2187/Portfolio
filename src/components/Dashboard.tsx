@@ -29,7 +29,7 @@ export const Dashboard = () => {
         <div className="row">
             <div className="col-6 my-auto">
                 <h1 className="display-1">{firstName} {lastName}</h1>
-                <h4 className="text-secondary">5th Semester Student of Stevens Institute of Technology</h4>
+                <h4 className="text-secondary">Mid-Level Full Stack Engineer</h4>
             </div>
             <div className="col-6 my-auto">
                 <img src="/images/profile_1.png" className="image-fluid img-thumbnail rounded w-50" alt="profile_picture" />

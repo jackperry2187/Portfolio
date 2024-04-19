@@ -8,18 +8,22 @@ export const Experience = () => {
                 <div className="col">
                     <div className="card text-white bg-secondary text-start h-100">
                         <div className="card-body">
-                            <h5 className="card-title text-center mb-0">March 2022 - Present</h5>
-                            <h1 className="card-title text-center">Frontend Engineer</h1>
-                            <h5 className="card-title text-center">ThinkAlpha Technologies</h5>
+                            <h5 className="card-title text-center mb-0">March 2022 - May 2024</h5>
+                            <h1 className="card-title text-center">Full-Stack Engineer</h1>
+                            <h5 className="card-title text-center">
+                                <a href={'https://thinkalpha.io/'} target='_blank' rel="noreferrer" className="text-white">
+                                    ThinkAlpha Technologies
+                                </a>
+                            </h5>
                             <h5 className="card-title text-center">Remote</h5>
                             <div className="card bg-dark">
                                 <div className="card-body">
                                     <label>Responsibilities include:</label>
                                     <ul>
-                                        <li>Constructing interactive frontend components for internal admin processes and user-facing components</li>
-                                        <li>Working with technologies such as React, React Router, MaterialUI, Sass, Axios, and TypeScript</li>
-                                        <li>Constructing extensive contracts, controllers, and services in a complex multi-layer backend system</li>
-                                        <li>Working with technologies such as Express.js, tsoa, MongoDB, and TypeScript</li>
+                                        <li>Reconstructed and modernized a widget focused on Short Locates using React, Redux Saga, shadcn/ui, and Tailwind. Additionally used Socket.IO and TanStack Query to communicate with a newly reconstructed backend</li>
+                                        <li>Implemented multiple contracts, controllers, and services revolving around complex user permissioning logic using Express.js, MongoDB, Postman, and tsoa</li>
+                                        <li>Customized FusionAuth theme templates with proprietary styles and components to allow a seamless integration of over 40 authentication pages with the existing product</li>
+                                        <li>Parsed and converted Financial Information eXchange (FIX) protocol requirements into custom and dynamic MaterialUI React forms that allowed users to place stock orders with fine-grained instructions</li>
                                     </ul>
                                 </div>
                             </div>
@@ -37,10 +41,9 @@ export const Experience = () => {
                                 <div className="card-body">
                                     <label>Responsibilities include:</label>
                                     <ul>
-                                        <li>Course Assistant for CS546: Master's Level Web Programming I</li>
-                                        <li>Grading of lab assignments and quizzes</li>
-                                        <li>Assisting students both in person and virtually with assignments and problems</li>
-                                        <li>Being attentive to a slack workspace and email at all times</li>
+                                        <li>Provided comprehensive instruction to graduate students in web development, guiding them through concepts such as AJAX, API development, asynchronous programming, Bootstrap, CSS, Express.js, HTML, JQuery, MongoDB, and Node.js.</li>
+                                        <li>Managed administrative tasks including scheduling and conducting weekly office hours, promptly grading labs and quizzes, and facilitating communication via email and Slack to create a supportive learning environment and offer timely assistance.</li>
+                                        <li>Mentored and guided students in troubleshooting technical issues, debugging code, and optimizing performance, cultivating problem-solving abilities and fostering a collaborative learning community.</li>
                                     </ul>
                                 </div>
                             </div>
